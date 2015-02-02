@@ -50,6 +50,7 @@ class Hearts(Game):
             for i in range(cards_per_player):
                 card = deck.pop()
                 card.owner = player
+                card.set_game_attribute('face_up', True, player)
                 player.hand.push(card)
 
         # Put the remaining cards in the pocket
