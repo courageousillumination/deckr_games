@@ -130,6 +130,6 @@ class Hearts(Game):
         """
 
         index = self.players.index(player)
-        if index == len(self.players):
+        if index == (len(self.players) - 1):
             return self.players[0]
         return self.players[index + 1]
