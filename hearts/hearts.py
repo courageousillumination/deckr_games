@@ -5,9 +5,9 @@ hearts.
 
 from random import shuffle
 
-from deckr_engine.contrib.card import Card
-from deckr_engine.contrib.playing_card import create_deck, PlayingCard
-from deckr_engine.core.game import action, Game, restriction
+from deckr.contrib.card import Card
+from deckr.contrib.playing_card import create_deck, PlayingCard
+from deckr.core.game import action, Game, restriction
 
 
 def is_point_card(card):

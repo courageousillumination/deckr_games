@@ -1,7 +1,7 @@
 from unittest import TestCase
 
-from deckr_engine.contrib.playing_card import PlayingCard
-from deckr_engine.core.exceptions import FailedRestrictionException
+from deckr.contrib.playing_card import PlayingCard
+from deckr.core.exceptions import FailedRestrictionException
 from hearts import Hearts
 
 
